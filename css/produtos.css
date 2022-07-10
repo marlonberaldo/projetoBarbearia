@@ -1,0 +1,160 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(rgb(0, 22, 39), rgb(56, 124, 176), rgb(150, 196, 232), #fff);
+    padding: 20px 0;
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img {
+    width: 20%;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1.5em #b4b4b4;
+    transition: 0.8s all;
+}
+
+.produtos li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 1.5em #f8bd0e;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao-produto {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.agendamento a {
+    text-decoration: none;
+}
+
+.agendamento p {
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 0.3s;
+}
+
+.agendamento p:hover {
+    color: #f8bd0e;
+}
+
+.agendamento p::before {
+    content: "💈";
+}
+
+
+.agendamento p::after {
+    content: "💈";
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background: url("/img/bg.jpg");
+}
+
+.redes-sociais li {
+    padding: 20px;
+    transition: 0.5s all;
+}
+
+.redes-sociais li:hover {
+    transform: scale(1.3);
+}
+
+.redes {
+    width: 4%;
+    display: inline-block;
+}
+
+.direitos {
+    font-size: 22px;
+    color: #f8bd0e;
+    margin: 20px 0 0;
+}
+
+.direitos a {
+    text-decoration: none;
+    color: #f8bd0e;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 970px) {
+
+    .caixa {
+        width: auto;
+    }
+
+
+    .produtos li {
+        display: block;
+    }
+}

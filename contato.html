@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/contato.css">
+    <link rel="icon" href="./img/razor-barber-pngrepo-com.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <title>Contato - Barbearia Alura</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo.png" alt="Logo Barbearia Alura"></h1>
+            <nav>
+                <ul>
+                    <li class="infos"><a href="primeiraAula.html">Home</a></li>
+                    <li class="infos"><a href="produtos.html">Produtos</a></li>
+                    <li class="infos"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="conteudasso">
+            <form>
+                <label for="nomesobrenome">Nome Completo</label>
+                <input type="text" id="nomesobrenome" autocomplete="off" placeholder="Nome.." required
+                    class="input-padrao">
+
+                <label for="email">Email</label>
+                <input type="email" name="" id="email" autocomplete="off" placeholder="Email.." required
+                    class="input-padrao">
+
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone" autocomplete="off" placeholder="Telefone.." required class="input-padrao">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="30" rows="10" id="mensagem" placeholder="Deixe-nos aqui uma mensagem.."
+                    class="input-padrao"></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">
+                        Email</label>
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">
+                        Telefone</label>
+
+                    <label for="radio-whats"><input type="radio" name="contato" value="Whatsapp" id="radio-whats"
+                            checked>
+                        Whatsapp</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Em qual horario prefere ser atendido?</legend>
+                    <select>
+                        <option value="">Manhã</option>
+                        <option value="">Tarde</option>
+                        <option value="">Noite</option>
+                    </select>
+                </fieldset>
+                <label class="check-box"><input type="checkbox" checked> Gostaria de receber nossas novidades por
+                    email?</label>
+
+
+                <input type="submit" value="Enviar Formulário" class="envio">
+            </form>
+
+            <div class="contato-container">
+                <p class="horario-atendimento"><strong>Horário de atendimento:</strong></p>
+                <p class="info-horario">
+                    De segunda a sexta, das 8h às 20h, aos sábados das 8h às 13h (exceto feriados)
+                </p>
+                <div class="info-empresa">
+                    <p class="telefone">
+                        <strong>Fone</strong>
+                    </p>
+                    <p>(41) 98781-0512</p>
+                    <p class="whats-fone">
+                        <strong>Whatsapp</strong>
+                    </p>
+                </div>
+                <p><a href="#">(41) 98781-0512</a></p>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="img/logo-branco.png" alt="Logo da Barbearia Alura">
+        <ul class="redes-sociais">
+            <li class="redes"><a href="https://www.instagram.com/"><img src="img/redes/instagram-svgrepo-com.svg"></a>
+            </li>
+            <li class="redes"><a href="https://www.facebook.com/"><img src="img/redes/facebook-svgrepo-com.svg"></a>
+            </li>
+            <li class="redes"><a href="https://www.twitter.com/"><img src="img/redes/twitter-svgrepo-com.svg"></a>
+            </li>
+        </ul>
+        <p class="direitos">&copy; Copyright <a href="primeiraAula.html">Barbearia Alura</a> - 2022</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.conteudasso {
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: linear-gradient(rgb(0, 22, 39), rgb(56, 124, 176), rgb(150, 196, 232), #fff);
+    padding: 20px 0;
+    width: 100%;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.caixa img {
+    width: 20%;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin: 0 0 40px 0;
+    width: 50%;
+    margin-right: 100px;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+.input-padrao {
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 1.5em #b4b4b4;
+}
+
+
+.envio {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 20px;
+    background-color: #f8bd0e;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    transition: 0.8s all;
+    cursor: pointer;
+    box-shadow: 0 0 1.5em #b4b4b4;
+}
+
+.envio:hover {
+    background-color: #eeb300;
+    transform: scale(1.1);
+}
+
+/*
+.check-box input [type="checkbox"]:checked {
+    background-color: red;
+    color: red;
+}*/
+
+.check-box {
+    margin: 20px 0;
+}
+
+fieldset select {
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    background: url("/img/bg.jpg");
+}
+
+.redes-sociais li {
+    transition: 0.5s all;
+    padding: 20px;
+}
+
+.redes-sociais li:hover {
+    transform: scale(1.3);
+}
+
+.redes {
+    width: 4%;
+    display: inline-block;
+}
+
+.direitos {
+    font-size: 22px;
+    color: #f8bd0e;
+    margin: 20px 0 0;
+}
+
+.direitos a {
+    text-decoration: none;
+    color: #f8bd0e;
+    font-size: 22px;
+}
+
+.contato-container {
+    margin-top: 2em;
+    width: 30%;
+    height: 50%;
+    padding: 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 1.5em #b4b4b4;
+}
+
+.horario-atendimento::before {
+    content: "⏳ ";
+}
+
+.contato-container .horario-atendimento {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.contato-container p {
+    font-size: 1em;
+    text-align: center;
+}
+
+.info-empresa {
+    margin-top: 15%;
+}
+
+.contato-container a {
+    transition: 0.3s all;
+    text-decoration: none;
+    color: #000;
+}
+
+.contato-container a:hover {
+    color: #f8bd0e;
+    transform: scale(1.6);
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        width: auto;
+    }
+
+    .caixa {
+        width: auto;
+    }
+
+    .conteudasso {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .contato-container {
+        margin: 1em;
+    }
+}
